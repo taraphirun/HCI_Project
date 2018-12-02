@@ -6,11 +6,7 @@ include 'header.php';
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-
-	    <link href="style.css" rel="stylesheet" />
-
 	<title>STEM</title>
-
 </head>
 <body>
 	<!-- LANDING_MEDIA -->
@@ -25,4 +21,8 @@ include 'header.php';
 
     </div>
 </body>
+
+<?php 
+include 'Footer.php';
+?>
 </html>
