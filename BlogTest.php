@@ -5,7 +5,7 @@ include 'header.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="BlogTest.css">
+<link rel="stylesheet" href="../HCI/CSS/BlogTest.css">
 	<meta charset="UTF-8">
 	<title>Blog</title>
 </head>

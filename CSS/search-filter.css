@@ -1,9 +1,9 @@
 .container {
-  padding: 30px
+  padding: 20px
 }
 
 .searchFilter {
-  margin-bottom: 20px;    
+  margin-bottom: 10px;    
 }
  .searchFilter.btn {
     display: inline-block;

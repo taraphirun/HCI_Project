@@ -9,25 +9,16 @@ Primary style
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
 
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  color: #331d35;
-  background-color: #e7e7e7;
-}
-
 a {
   color: #41307c;
   text-decoration: none;
+
 }
 
 /* -------------------------------- 
@@ -37,15 +28,12 @@ Main Components
 -------------------------------- */
 .cd-header {
   position: relative;
-  height: 150px;
-  background-color: red;
+  height: 100px;
 }
 .cd-header h1 {
-  color: #ffffff;
-  line-height: 150px;
+  color: #00DDDD;
   text-align: center;
-  font-size: 2.4rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 @media only screen and (min-width: 1170px) {
   .cd-header {
@@ -451,7 +439,7 @@ xcustom form elements
   color: #9a9a9a;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -494,6 +482,7 @@ xcustom form elements
   border-radius: 0;
   background-color: #ffffff;
   border: 2px solid #e6e6e6;
+  font-size: 0.8rem;
 }
 .cd-filter-block input[type='search'],
 .cd-filter-block input[type='text'],
@@ -506,7 +495,8 @@ xcustom form elements
   -o-appearance: none;
   appearance: none;
   box-shadow: none;
-}
+  font-size: 0.5rem;
+  }
 .cd-filter-block input[type='search']:focus,
 .cd-filter-block input[type='text']:focus,
 .cd-filter-block select:focus {
