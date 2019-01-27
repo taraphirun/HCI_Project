@@ -1,0 +1,279 @@
+div{
+  display: block;
+}
+body{
+  font-size: 14px;
+}
+#pageWrapper{
+  margin: 20px 250px 0 250px;
+}
+#mainContent{
+  display: block;
+  width: 66.6667%;
+}
+#sideContent{
+  display: block;
+  width: 33.3333%;
+  padding: 0 10px 0 25px;
+}
+@media only screen and (max-width: 800px){
+  #mainContent, #sideContent {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  #pageWrapper{
+    margin: 0 20px 0 20px;
+  }
+}
+/* FEATURED */
+.postTitle a:visited{
+  color:white;
+}
+.postTitle a:hover{
+  text-decoration: none;
+}
+.postContent{
+  position: relative;
+  color: white;
+  height: 450px;
+}
+.postMeta{
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+.postTitle{
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  padding-bottom: 5px;
+  width: 100%;
+}
+.postInfo{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 0px 10px 10px 10px;
+  background-image: linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.02));
+}
+.post-image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+}
+/* MAIL */
+.blogPost {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 0 60px 0;
+}
+.postImage{
+  float: left;
+  width: 270px;
+  height: 190px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin: 0 18px 0 0;
+}
+.post-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 18px;
+  z-index: 5;
+  background-color: #59ed89;
+  color: #fff;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 7px;
+  border-radius: 2px;
+}
+a.read-more {
+    display: inline-block;
+    height: 28px;
+    background-color: #59ed89;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 28px;
+    padding: 0 13px;
+    margin: 15px 0 0;
+    border-radius: 2px;
+    transition: background .17s ease;
+}
+.blogPost .postTitle{
+  font-size: 18px;
+}
+.blog-pager{
+  display: block;
+  margin-bottom: 100px;
+}
+.blog-pager a, .blog-pager span {
+    float: left;
+    display: block;
+    min-width: 30px;
+    height: 30px;
+    background-color: #f2f2f2;
+    color: #171717;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 5px 0 0;
+    border-radius: 2px;
+    transition: all .17s ease;
+}
+.blog-pager .page-active{
+  background-color: #59ed89;
+}
+.sideBlock{
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+/* SUBSCRIBEBOX */
+.subContent{
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 3px solid #f5f5f5;
+  margin-top: 20px;
+}
+.subTitle{
+  font-family: Georgia,serif;
+  /* font-weight: 400; */
+  font-size: 25px;
+
+}
+.subPara{
+  color: grey;
+}
+.emailBox{
+  width: 100%;
+  font-size: 11px;
+  padding: 4px;
+}
+.emailButton{
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #59ed89;
+  border: 0;
+  padding:5px;
+}
+.emailButton:hover{
+  cursor:pointer;
+}
+.emailButton:active{
+  background-color: #59ed00;
+}
+/* HIGHLIGHT */
+.highTitle{
+  display: block;
+  background-color: #f9f9f9;
+  /* padding: 5px; */
+  text-align: center;
+  width: 100%;
+}
+.highTitle h3{
+  font-size: 18px;
+  padding: 10px;
+}
+.highPost{
+  width: 100%;
+  height: 100px;
+  margin: 10px;
+}
+.highThum{
+  width: 100px;
+  display: block;
+  float: left;
+  padding:5px;
+  position: relative;
+}
+.imgThum{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.highContent{
+  float: left;
+  position: relative;
+  width: 200px;
+  height: 100px;
+  padding:5px;
+  margin: 5px;
+}
+.highContent h4{
+  font-size: 15px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+.categoryLink{
+  color: black;
+}
+.categoryLink:hover{
+  color: green;
+  text-decoration: none;
+}
+.listObj{
+  background-color: #f9f9f9;
+  margin: 5px;
+  list-style: none;
+  padding: 5px;
+  border: 2px solid #f6f6f6;
+  width: 100%;
+}
+.listObj:hover{
+  background-color: #f3f3f3;
+}
+/* /////////////////////////////////POST */
+
+.postWrapper.postImage{
+  width: 100%;
+}
+.postContent{
+  margin: 20px 0 0 0;
+}
+.postWrapper p {
+  color: black;
+  font-size: 14px;
+  color:black;
+  /* letter-spacing: 1px; */
+  word-spacing: 2px;
+}
+.endAction .subTitle, .endAction .subPara{
+  text-align: left;
+}
+
+/* ADS */
+.postAds{
+  width: 100%;
+  height: 350px;
+  margin: 20px 0 20px 0;
+}
+.adsImgCon{
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  /* object-fit:fill; */
+}
+.adsTitle{
+  font-weight: bold;
+}

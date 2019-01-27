@@ -1,0 +1,449 @@
+.mainContainer{
+  padding: 0;
+  /* margin: 0 20px 0 20px; */
+}
+#coverPage{
+  background:url(res/img/main.jpg) no-repeat center center ;
+  display: table;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: .4;
+  z-index: 1;
+}
+.active{
+  text-decoration: underline;
+}
+.greeting{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+}
+.greeting h1{
+  color: #fff;
+  font-size: 250%;
+  position: relative;
+  z-index: 2;
+}
+.findClassBtn{
+  position: relative;
+  z-index: 2;
+}
+.recommendation{
+  display: block;
+  position: relative;
+  height: 300px;
+  width: 1200px;
+  margin: 0 auto;
+  transform: translateY(-50%);
+
+  z-index: 2;
+  align-items: center;
+}
+.recTitle{
+  text-align: center;
+  color: #fff;
+  font-size: 150%
+}
+.recContent{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+  padding: 20px;
+  /* background-color:#f6f6f6; */
+  border-radius: 10px;
+}
+.recom{
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+
+  /* border: 1px solid rgba(0,   0, 0, 0.8); */
+  /* padding: 20px; */
+  font-size: 30px;
+  text-align: center;
+}
+.recImgCon{
+  display: block;
+  position: relative;
+  float: left;
+  width: 250px;
+  height: 178px;
+  object-fit: cover;
+}
+.recImg{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.recMeta{
+  display: block;
+  position: relative;
+  float: left;
+  margin-left: 5px;
+  width: 50%;
+  text-align: left;
+  margin-left: 20px;
+}
+.metaInfo{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.coachContainer{
+  display: block;
+  position: relative;
+  width: 40%;
+  height: 500px;
+}
+.slide-img{
+  border-radius: 50%;
+}
+
+/* MAINCONTENT */
+.mainContent{
+  display: block;
+  position: relative;
+  transform: translateY(-180px);
+}
+.coachQuote{
+  display: block;
+  width: 100%;
+  height:300px;
+  background-color: grey;
+}
+.coachQuote p{
+  text-align: center;
+  color: white;
+}
+.dnSlide-item a{
+  text-decoration: none;
+}
+/* SECTION2 */
+.sect2Container{
+  display: block;
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+}
+.sect2Wrapper{
+  width: 1200px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.steam_vidCon{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.steam_vid{
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding:30px;
+}
+.stepsWrapper{
+  display: block;
+  width: 450px;
+  margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.stepsCon{
+  display: block;
+  width: 100%;
+  height: 140px;
+  padding-top: 5px;
+  /* padding-bottom: 20px; */
+  /* padding-bottom: 50px; */
+}
+.step{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  float: left;
+  background-color: #f4f4f4f5;
+  border: 2px solid #f1f1f1f1;
+  /* background:url(res/img/arrowRight.png) no-repeat ; */
+}
+.stepInfo{
+  padding-top: 8%;
+}
+.stepInfo h4{
+  color: darkgrey;
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.stepInfo p{
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}
+.button{
+  margin-top: 30px;
+}
+/* ///Testomony **********************/
+.blockContainer{
+  /* text-align: center; */
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+.grey{
+  background-color: #f4f4f4f5;
+}
+.testWrapper{
+  width: 1200px;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+.testList{
+  padding-top: 20px;
+}
+.blockTitle h2{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.testItemVideoCon{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 283px;
+}
+.testItemVideo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.testItemTitle{
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+.testItemQuote{
+  width: 100%;
+  /* height: 100%; */
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.applyCoachCon{
+  display: block;
+  width: 100%;
+  border-top: 1px solid grey;
+
+}
+.applyCoachWrapper{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.hookQuote{
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+/* SECTION_V */
+.mvCon{
+
+}
+.mvWrapper{
+  display: block;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  /* border: 1px solid black; */
+}
+.missionCon{
+  display: block;
+  width: 100%;
+  height: 20%;
+}
+.missionTitle{
+  display: block;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+.missionStatement{
+  display: block;
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.missionStatement p{
+  font-size: 25px;
+}
+.valueCon{
+  display: block;
+  width: 100%;
+  height: 80%;
+  padding-top: 50px;
+}
+
+blockquote {
+   font-size: 25px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+}
+blockquote p {
+   font-style: italic;
+   margin-bottom: 0;
+}
+
+blockquote p::before,
+blockquote p::after {
+   content: "“";
+   font-family: Georgia;
+   font-size: 5rem;
+   margin: -2rem 0 0 -4rem;
+   position: absolute;
+   opacity: 0.5;
+}
+
+blockquote p::after {
+   content: "”";
+   margin: -1rem -4rem 0 0;
+}
+
+blockquote cite {
+   font-size: 1.5rem;
+}
+
+.valueIcon{
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.fullImg{
+  width: 100%;
+  height: 100%;
+}
+.valueText{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+.valueList{
+  padding-top: 20px;
+}
+.value{
+  float: left;
+}
+/* SECTION2 */
+
+/* SECTION_VI */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  /* margin-bottom: 16px; /* Bottom margin */ */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input#fullName{
+  background: url(res/img/lnr-user.svg) no-repeat scroll 5px 5px;
+  background-position: 1% 40%;
+  background-color: white;
+  padding-left:30px;
+}
+input#email{
+  background: url(res/img/lnr-envelope.svg) no-repeat scroll 5px 5px;
+  background-position: 1% 40%;
+  background-color: white;
+  padding-left:30px;
+}
+#msgTopic option{
+  padding: 20px;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px
+}
+.formMapCon{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.formMapWrapper{
+  padding-top: 30px;
+  margin:0 auto;
+  width: 1300px;
+  border-bottom: .5px solid grey;
+}
+.formCon{
+  display: block;
+  width: 100%;
+  height: 100%;
+  float: left;
+  padding-bottom: 50px;
+}
+.formWrapper p{
+  font-style: italic;
+}
+.mapCon{
+  float: left;
+}
+/* LASTSECTION */
+.contactCon{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.contactOther{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contactOther h2{
+  font-size: 60px;
+  font-family: Vivaldi, cursive;
+}
+.contactOther p{
+  font-size: 20px;
+}
