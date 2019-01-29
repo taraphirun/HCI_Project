@@ -15,14 +15,14 @@
 
 /*// Button
 */button{
-	background-color: #00DDDD;
+	background-color: #5BC0AF;
 	border: none;
 	transition:
 		background-color .5s linear,
 		color .5s linear
 	;
 
-	&:hover { background-color: darken(#00DDDD, 5%); }
+	&:hover { background-color: darken(#5BC0AF, 5%); }
 
 	&:focus { outline: none; }
 }
@@ -34,17 +34,17 @@
 	font-size: 13px;
 	padding: 20px 40px;
 	text-transform: uppercase;
-	text-shadow: 0 1px 1px darken(#00DDDD, 10%);
+	text-shadow: 0 1px 1px darken(#FAEAAB, 10%);
 }
 
 /*// Animations*/
 @keyframes shadowFloat {
    0%   {
-		box-shadow: 0 20px 40px #c7c7c7;
+		box-shadow: 0 20px 40px #F4F4F5;
 		transform: translateY(-3px);
 	}
    100% {
-		box-shadow: 0 10px 10px darken(#c7c7c7, 5%);;
+		box-shadow: 0 10px 10px darken(#F4F4F5, 5%);;
 		transform: translateY(3px); 
 	}
 }

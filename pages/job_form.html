@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application</title>
+</head>
+<style>
+	body{
+		width:60%;
+		margin:auto;
+	}
+</style>
+
+<body>
+	<h3>Steam Job Application</h3>
+    <form action="index.php" method="post" name="adminForm" id="adminForm">
+        <fieldset class="form">
+            <legend style="font-size: 10pt;">Personal Information</legend>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            First Name :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="first_name" id="first_name" size="20" maxlength="250" value="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                        </td>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Middle Name :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="middle_name" id="middle_name" size="20" maxlength="250" value="">
+                        </td>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Last Name :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="last_name" id="last_name" size="20" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Home Phone :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="home_phone" id="home_phone" size="20" maxlength="20" value="">
+                        </td>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Work Phone :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="work_phone" id="work_phone" size="20" maxlength="20" value="">
+                        </td>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Cell Phone :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="cell_phone" id="cell_phone" size="20" maxlength="20" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Email Address :
+                        </td>
+                        <td colspan="5">
+                            <input class="text_area" type="text" name="email_address" id="email_address" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Addresses</legend>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td>
+                        </td>
+                        <td class="" style="font-size: 8pt; text-align: center;">
+                            Street :
+                        </td>
+                        <td class="" style="font-size: 8pt; text-align: center;">
+                            City :
+                        </td>
+                        <td class="" style="font-size: 8pt; text-align: center;">
+                            State :
+                        </td>
+                        <td class="" style="font-size: 8pt; text-align: center;">
+                            Zip Code :
+                        </td>
+                        <td class="" style="font-size: 8pt; text-align: center;">
+                            Since (Mo/Yr) :
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            To (Mo/Yr):
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Current Address :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="street" id="street" size="30" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="city" id="city" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="state" id="state" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="zip_code" id="zip_code" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="from_date" id="from_date" size="8" maxlength="10" value="">
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Prior Address:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="street1" id="street1" size="30" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="city1" id="city1" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="state1" id="state1" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="zip_code1" id="zip_code1" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="from_date1" id="from_date1" size="8" maxlength="10" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="to_date1" id="to_date1" size="8" maxlength="10" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Prior Address:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="street2" id="street2" size="30" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="city2" id="city2" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="state2" id="state2" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="zip_code2" id="zip_code2" size="8" maxlength="20" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="from_date2" id="from_date2" size="8" maxlength="10" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="to_date2" id="to_date2" size="8" maxlength="10" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Education</legend>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td>
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            School Attended:
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            City:
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            State:
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Diploma:
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Degree/Cert.:
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Area of Study </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            High School:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school" id="school" size="25" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_city" id="school_city" size="10" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_state" id="school_state" size="4" maxlength="250" value="">
+                        </td>
+                        <td width="100" style="font-size: 8pt; text-align: center;">
+                            <input type="radio" name="school_diploma" id="school_diploma0" value="0" checked="checked" class="inputbox">
+                            <label for="school_diploma0">No</label>
+                            <input type="radio" name="school_diploma" id="school_diploma1" value="1" class="inputbox">
+                            <label for="school_diploma1">Yes</label>
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            GED </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Undergrad School:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school1" id="school1" size="25" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_city1" id="school_city1" size="10" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_state1" id="school_state1" size="4" maxlength="250" value="">
+                        </td>
+                        <td width="100" style="font-size: 8pt; text-align: center;">
+                            <input type="radio" name="school_diploma1" id="school_diploma10" value="0" checked="checked" class="inputbox">
+                            <label for="school_diploma10">No</label>
+                            <input type="radio" name="school_diploma1" id="school_diploma11" value="1" class="inputbox">
+                            <label for="school_diploma11">Yes</label>
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="diploma_text1" id="diploma_text1" size="8" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="study_area1" id="study_area1" size="8" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Grad School:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school2" id="school2" size="25" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_city2" id="school_city2" size="10" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_state2" id="school_state2" size="4" maxlength="250" value="">
+                        </td>
+                        <td width="100" style="font-size: 8pt; text-align: center;">
+                            <input type="radio" name="school_diploma2" id="school_diploma20" value="0" checked="checked" class="inputbox">
+                            <label for="school_diploma20">No</label>
+                            <input type="radio" name="school_diploma2" id="school_diploma21" value="1" class="inputbox">
+                            <label for="school_diploma21">Yes</label>
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="diploma_text2" id="diploma_text2" size="8" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="study_area2" id="study_area2" size="8" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Other School:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school3" id="school3" size="25" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_city3" id="school_city3" size="10" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="school_state3" id="school_state3" size="4" maxlength="250" value="">
+                        </td>
+                        <td width="100" style="display: block; font-size: 8pt; text-align: center;">
+                            <input type="radio" name="school_diploma3" id="school_diploma30" value="0" checked="checked" class="inputbox">
+                            <label for="school_diploma30">No</label>
+                            <input type="radio" name="school_diploma3" id="school_diploma31" value="1" class="inputbox">
+                            <label for="school_diploma31">Yes</label>
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="diploma_text3" id="diploma_text3" size="8" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="study_area3" id="study_area3" size="8" maxlength="250" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Employment Information</legend>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Position Applied For:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="position" id="position" size="15" maxlength="250" value="">
+                        </td>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Date You Can Start:
+                        </td>
+                        <td>
+                        	<input type="date">
+                            <!--<input class="text_area" type="text" name="available_date" id="available_date" size="8" maxlength="250" value = "" />-->
+                           <!--  <input type="text" name="available_date" id="available_date" value=""><img class="calendar" src="/templates/system/images/calendar.png" alt="calendar" id="available_date_img">&nbsp;(yyyy-mm-dd) -->
+                        </td>
+                        <td width="100" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Desired Salary:&nbsp;$ </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            <input class="text_area" type="text" name="desired_pay" id="desired_pay" size="8" maxlength="250" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Do You Prefer:
+                        </td>
+                        <td valign="top">
+                            <select name="work_preferences" id="work_preferences" class="inputbox">
+                                <option value="Full-Time">Full-Time</option>
+                                <option value="Part-Time">Part-Time</option>
+                            </select> </td>
+                        <td width="80" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Can you work:
+                        </td>
+                        <td width="80" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            <input type="checkbox" name="weekends" id="weekends" class="inputbox" value="1">&nbsp;Weekends<br>
+                            <input type="checkbox" name="evenings" id="evenings" class="inputbox" value="1">&nbsp;Evenings </td>
+                        <td width="80" valign="top" align="center" class="key" style="border: 0px; font-size: 8pt;">
+                            Available:
+                        </td>
+                        <td align="right" valign="top" class="key" style="border: 0px; font-size: 8pt;">
+                            <input type="checkbox" name="monday" id="monday" class="inputbox" value="1">M <input type="checkbox" name="tuesday" id="tuesday" class="inputbox" value="1">Tu <input type="checkbox" name="wednesday" id="wednesday" class="inputbox" value="1">W <input type="checkbox" name="thursday" id="thursday" class="inputbox" value="1">Th <input type="checkbox" name="friday" id="friday" class="inputbox" value="1">F <input type="checkbox" name="saturday" id="saturday" class="inputbox" value="1">Sa <input type="checkbox" name="sunday" id="sunday" class="inputbox" value="1">Su </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Not Available:
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="unavailability" id="unavailability" size="80" maxlength="250" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" style="font-size: 8pt; text-align: left;">
+                            <strong>Please answer all of the following questions.</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="50" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            1.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Are you at least 18 years of age and legally eligible to work for our company in the United States? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="eligible" id="eligible0" value="0" checked="checked" class="inputbox">
+                            <label for="eligible0">No</label>
+                            <input type="radio" name="eligible" id="eligible1" value="1" class="inputbox">
+                            <label for="eligible1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            2.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Have you worked for this business before? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="worked_here_before" id="worked_here_before0" value="0" checked="checked" class="inputbox">
+                            <label for="worked_here_before0">No</label>
+                            <input type="radio" name="worked_here_before" id="worked_here_before1" value="1" class="inputbox">
+                            <label for="worked_here_before1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                        </td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If yes, please provide dates and locations. <input class="text_area" type="text" name="worked_here_text" id="worked_here_text" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            3.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Have you received a description of the job or been made aware of the essential functions of the job for which you are applying? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="job_desc_received" id="job_desc_received0" value="0" checked="checked" class="inputbox">
+                            <label for="job_desc_received0">No</label>
+                            <input type="radio" name="job_desc_received" id="job_desc_received1" value="1" class="inputbox">
+                            <label for="job_desc_received1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            4.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Do you understand the job requirements? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="understand_reqs" id="understand_reqs0" value="0" class="inputbox">
+                            <label for="understand_reqs0">No</label>
+                            <input type="radio" name="understand_reqs" id="understand_reqs1" value="1" checked="checked" class="inputbox">
+                            <label for="understand_reqs1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                        </td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If no, please explain. <input class="text_area" type="text" name="no_understand_reqs" id="no_understand_reqs" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            5.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Are you on layoff and subject to recall? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="on_layoff" id="on_layoff0" value="0" checked="checked" class="inputbox">
+                            <label for="on_layoff0">No</label>
+                            <input type="radio" name="on_layoff" id="on_layoff1" value="1" class="inputbox">
+                            <label for="on_layoff1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            6.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Are you currently bound by a noncompetition, confidentiality or trade secret agreement? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="conf_agreement" id="conf_agreement0" value="0" checked="checked" class="inputbox">
+                            <label for="conf_agreement0">No</label>
+                            <input type="radio" name="conf_agreement" id="conf_agreement1" value="1" class="inputbox">
+                            <label for="conf_agreement1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                        </td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If yes, please explain... <input class="text_area" type="text" name="conf_explain" id="conf_explain" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            7.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Have you ever been discharged or asked to resign from a job? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="discharged" id="discharged0" value="0" checked="checked" class="inputbox">
+                            <label for="discharged0">No</label>
+                            <input type="radio" name="discharged" id="discharged1" value="1" class="inputbox">
+                            <label for="discharged1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                        </td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If yes, please explain... <input class="text_area" type="text" name="discharge_explain" id="discharge_explain" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            8.
+                        </td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Have you ever been convicted of or pled guilty to a felony or crime other than a minor traffic citation? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="convict" id="convict0" value="0" checked="checked" class="inputbox">
+                            <label for="convict0">No</label>
+                            <input type="radio" name="convict" id="convict1" value="1" class="inputbox">
+                            <label for="convict1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                        </td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If yes, please explain... <input class="text_area" type="text" name="convict_explain" id="convict_explain" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Employment History</legend>
+            <table width="100%" class="admintable">
+                <tbody>
+                    <tr>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            May we contact your present employer? </td>
+                        <td align="center" valign="top" width="100">
+                            <input type="radio" name="contact_emp" id="contact_emp0" value="0" checked="checked" class="inputbox">
+                            <label for="contact_emp0">No</label>
+                            <input type="radio" name="contact_emp" id="contact_emp1" value="1" class="inputbox">
+                            <label for="contact_emp1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="font-size: 8pt; text-align: left;">
+                            <strong>Please list your current and/or past employer information:</strong>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td>
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Most Recent Employer </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Prior Employer&nbsp;(1)
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Prior Employer&nbsp;(2)
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Prior Employer&nbsp;(3)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Employer :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer" id="employer" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1" id="employer1" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2" id="employer2" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3" id="employer3" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            City :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_city" id="employer_city" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_city" id="employer1_city" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_city" id="employer2_city" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_city" id="employer3_city" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            State :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_state" id="employer_state" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_state" id="employer1_state" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_state" id="employer2_state" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_state" id="employer3_state" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Zip Code :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_zip" id="employer_zip" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_zip" id="employer1_zip" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_zip" id="employer2_zip" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_zip" id="employer3_zip" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Phone :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_phone" id="employer_phone" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_phone" id="employer1_phone" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_phone" id="employer2_phone" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_phone" id="employer3_phone" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Position Held :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_pos" id="employer_pos" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_pos" id="employer1_pos" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_pos" id="employer2_pos" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_pos" id="employer3_pos" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            From (m/yyyy) :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_from" id="employer_from" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_from" id="employer1_from" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_from" id="employer2_from" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_from" id="employer3_from" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            To (m/yyyy) :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_to" id="employer_to" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_to" id="employer1_to" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_to" id="employer2_to" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_to" id="employer3_to" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Pay Upon Leaving :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_pay" id="employer_pay" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_pay" id="employer1_pay" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_pay" id="employer2_pay" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_pay" id="employer3_pay" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Supervisor :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_sup" id="employer_sup" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_sup" id="employer1_sup" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_sup" id="employer2_sup" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_sup" id="employer3_sup" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Duties :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_dut" id="employer_dut" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_dut" id="employer1_dut" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_dut" id="employer2_dut" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_dut" id="employer3_dut" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Reason For Leaving :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer_leave" id="employer_leave" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer1_leave" id="employer1_leave" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer2_leave" id="employer2_leave" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="employer3_leave" id="employer3_leave" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Job-related Skills</legend>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" style="font-size: 8pt; text-align: left;">
+                            <strong>Please answer the following questions if the position you are applying for requires driving a motor vehicle:</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">1.</td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Do you have a valid driver's license? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="driver_license" id="driver_license0" value="0" checked="checked" class="inputbox">
+                            <label for="driver_license0">No</label>
+                            <input type="radio" name="driver_license" id="driver_license1" value="1" class="inputbox">
+                            <label for="driver_license1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                        </td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If yes, Driver's License Number:
+                            <input class="text_area" type="text" name="dl_number" id="dl_number" size="20" maxlength="250" value="">
+                            Date of Issue:
+                            <input class="text_area" type="text" name="dl_issued" id="dl_issued" size="20" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">2.</td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Have you been convicted of or pled guilty to any traffic-related offense within the past five years? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="driving_offense" id="driving_offense0" value="0" checked="checked" class="inputbox">
+                            <label for="driving_offense0">No</label>
+                            <input type="radio" name="driving_offense" id="driving_offense1" value="1" class="inputbox">
+                            <label for="driving_offense1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;"></td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If yes, please explain... <input class="text_area" type="text" name="driving_offense_reason" id="driving_offense_reason" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">3.</td>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Have you had your driver's license suspended or revoked or had your driving privileges modified by a court of law? </td>
+                        <td valign="top" width="100">
+                            <input type="radio" name="dl_modified" id="dl_modified0" value="0" checked="checked" class="inputbox">
+                            <label for="dl_modified0">No</label>
+                            <input type="radio" name="dl_modified" id="dl_modified1" value="1" class="inputbox">
+                            <label for="dl_modified1">Yes</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;"></td>
+                        <td colspan="2" valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            If yes, please explain... <input class="text_area" type="text" name="dl_modified_reason" id="dl_modified_reason" size="50" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50" align="right" class="key" style="border: 0px; font-size: 8pt;">4.</td>
+                        <td colspan="2" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Please list all states from which you hold or held a driver's license:
+                            <input class="text_area" type="text" name="dl_states" id="dl_states" size="40" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Please use this space to list any special skills you may have that relate to the position applied for:
+                            <textarea name="skills" rows="5" cols="75"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Please list any professional licenses, designations, certifications, etc. that may relate to the position applied for. Include date granted, name of organization, and any other relevant information.<br>
+                            <textarea name="professional" rows="5" cols="75"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">References</legend>
+            <table class="admintable">
+                <tbody>
+                    <tr>
+                        <td>
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Reference&nbsp;(1)
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Reference&nbsp;(2)
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Reference&nbsp;(3)
+                        </td>
+                        <td style="font-size: 8pt; text-align: center;">
+                            Reference&nbsp;(4)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Name :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref1_name" id="ref1_name" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref2_name" id="ref2_name" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref3_name" id="ref3_name" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref4_name" id="ref4_name" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Address :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref1_address" id="ref1_address" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref2_address" id="ref2_address" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref3_address" id="ref3_address" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref4_address" id="ref4_address" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Telephone :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref1_telephone" id="ref1_telephone" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref2_telephone" id="ref2_telephone" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref3_telephone" id="ref3_telephone" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref4_telephone" id="ref4_telephone" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Relationship :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref1_relationship" id="ref1_relationship" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref2_relationship" id="ref2_relationship" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref3_relationship" id="ref3_relationship" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref4_relationship" id="ref4_relationship" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            Years Acquainted :
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref1_years" id="ref1_years" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref2_years" id="ref2_years" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref3_years" id="ref3_years" size="18" maxlength="250" value="">
+                        </td>
+                        <td>
+                            <input class="text_area" type="text" name="ref4_years" id="ref4_years" size="18" maxlength="250" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Resume (Text Version)</legend>
+            <table width="100%" class="admintable">
+                <tbody>
+                    <tr>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Copy and Paste a text version of your resume here. </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            <textarea cols="60" rows="10" name="text_resume"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Upload File</legend>
+            <table width="100%" class="admintable">
+                <tbody>
+                    <tr>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            Attach a file to your application submission </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                            <input type="hidden" id="file_name" name="file_name" value="">
+                            <input class="text_area" type="file" onchange="document.getElementById('file_name').value=this.value" name="file_upload" id="file_upload" title="Pick a file to upload" size="50" value="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-size: 10pt;">Applicant's Certification Agreement</legend>
+            <table width="100%" class="admintable">
+                <tbody>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            1.
+                        </td>
+                        <td colspan="2" align="left" valign="top" class="key" style="border: 0px; font-size: 8pt;">
+                            The company and other persons or employers are released from all liability brought forth by any investigation resulting from my submission of this electronic application and the data contained here in. </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            2.
+                        </td>
+                        <td colspan="2" align="left" valign="top" class="key" style="border: 0px; font-size: 8pt;">
+                            The information in this application is true and complete to the best of my knowledge. Any falsification, misrepresentation, or omission on this application can be cause for denial or termination of employment. </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            3.
+                        </td>
+                        <td colspan="2" align="left" valign="top" class="key" style="border: 0px; font-size: 8pt;">
+                            If hired, my employment is voluntary, meaning that either party can employment at any time for any reason. Upon acceptance of employment if a position is offered, I agree to abide by all existing and future company rules and regulations. The company reserves the right to change any working agreement as deemed necessary. </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            4.
+                        </td>
+                        <td colspan="2" align="left" valign="top" class="key" style="border: 0px; font-size: 8pt;">
+                            Any employment offer is contingent open my providing proof of identity and eligibility to work the country of employ. </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            5.
+                        </td>
+                        <td colspan="2" align="left" valign="top" class="key" style="border: 0px; font-size: 8pt;">
+                            I have read and reviewed the information provided in this application and the above statements. By signing this application for employment I certify that I understand all parts of it and have answered all questions completely and fully. </td>
+                    </tr>
+                    <tr>
+                        <td width="50" valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                            6.
+                        </td>
+                        <td colspan="2" align="left" valign="top" class="key" style="border: 0px; font-size: 8pt;">
+                            I understand that by typing my name in the signature box below and submitting this application electronically, this becomes a legal and binding contract. </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Security Code</legend>
+            <table width="100%" class="admintable">
+                <tbody>
+                    <tr>
+                        <td>
+                            <input size="40" onclick="if (this.value=='Enter Security Code Here') this.value='';" type="text" name="captcha_entered" id="captcha_entered" maxlength="8" value="Enter Security Code Here">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <table width="100%" class="admintable">
+            <tbody>
+                <tr>
+                    <td>
+                    </td>
+                    <td valign="top" align="left" class="key" style="border: 0px; font-size: 8pt;">
+                        Type Name in Signature Box:
+                        <input class="text_area" type="text" name="signature" id="signature" size="35" maxlength="250" value="">
+                    </td>
+                    <td valign="top" align="right" class="key" style="border: 0px; font-size: 8pt;">
+                        Today's Date:&nbsp;2019-01-05 21:55:50<br>
+                    </td>
+                </tr>
+                 <tr>
+                    <td colspan="3" align="center">
+                        <input type="button" name="submit_app" onclick="document.adminForm.submit();" value="Submit">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="hidden" name="id" value="">
+        <input type="hidden" name="controller" value="application">
+        <input type="hidden" name="view" value="application">
+        <input type="hidden" name="source" value="form">
+        <input type="hidden" name="layout" value="static">
+        <input type="hidden" name="uid" value="5afd8931cf207cea6d7a16f1d6e0ad">
+        <input type="hidden" name="option" value="com_jobgrokapp">
+        <input type="hidden" name="Itemid" value="230">
+        <input type="hidden" name="task" value="save">
+        <input type="hidden" name="thankyou" value="0">
+        <input type="hidden" name="23bf1e36c70006e6626f11001af9ea49" value="1">
+    </form>
+</body>
+
+</html>
