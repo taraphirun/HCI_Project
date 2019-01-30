@@ -1,4 +1,4 @@
-<?php 
+<?php
  include ('header.php')
  ?>
 
@@ -31,19 +31,19 @@
         height: 0;
     }
 
-    .container {
+    .containers {
         font-family: 'Lato', sans-serif;
         width: 100%;
         margin: auto;
-        text-align: center;
+        text-align: left;
         display: inline-block;
-       
+
 
     }
 
     .wrapper {
         display: table-cell;
-        height: 300px;
+        height: 150px;
         vertical-align: middle;
     }
 
@@ -163,18 +163,15 @@
     }
 
 
-  li{
-    margin:15px;
-  /*. */
-  }
+
 
   #float {
     position: fixed;
     width: 150px;
     padding: 8px;
-    bottom: 100px;
+    bottom: 60px;
     right: 50px;
-    background-color: #5bc0af;
+    background-color: #08A491;
     color: #FFF;
     border-radius: 8px;
     text-align: center;
@@ -188,7 +185,7 @@
 }
 
 .clickable{
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .panel-heading span {
@@ -201,11 +198,8 @@
 /*@import url('https://fonts.googleapis.com/css?family=Tajawal');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*/
 
-section{
-    padding: 60px 0;
-}
 
-#accordion-style-1 h1,
+#accordion-style-1 h2,
 #accordion-style-1 a{
     color:#007b5e;
 }
@@ -241,12 +235,13 @@ section{
     display:block;
 }
     </style>
+    <link rel="stylesheet" href="../CSS/master.css">
 </head>
 
 <body>
-    <a href="job_form.html" id ="float">APPLY NOW</a>
+    <a target="_blank" href="job_form.html" id ="float">APPLY NOW</a>
     <div id="intro">
-        <div class="container">
+        <div class="containers">
             <div class="wrapper">
                 <div class="arrow-steps clearfix">
                     <div class="step current"> <span> Sign up as a Coach</span> </div>
@@ -257,11 +252,11 @@ section{
             </div>
         </div>
     </div>
-    <div style="display: inline-block;text-align: center; padding:50px;color:#08A491;background-color: #f4f4f5  ">
-        <h1 style="padding: 10px;text-align: center;font-size:60px;color:#D56212;background-color: #f4f4f5">Benefits</h1>
+    <div style="display: inline-block;text-align: center; padding:50px;color:#000;background-color: #FFF  ">
+        <h2 class="uniH2" style="padding: 10px;text-align: center;color:#08A491;background-color: #fff">Benefits</h2>
         <div class="row">
             <div class="col-md-4">
-                <i class="fa fa-heart-o" aria-hidden="true" style="font-size: 60px"></i>
+                <i class="fa fa-heart" aria-hidden="true" style="font-size: 60px"></i>
                 <h2>Do what You Love</h2>
                 <p>
                     If working with kids and inpiring kids are your passions, then STEAM is the place for you. Strengthen your passion and do what you love most.
@@ -280,11 +275,11 @@ section{
         </div>
     </div>
     <!--  <div style="background-color: white;height:10px">
-        
+
     </div>
  -->
-    <div style="display: inline-block;text-align: center; padding:50px;color:#17202A;background-color:#E8F6F3  ">
-        <h1 style="padding: 20px;text-align: center;font-size:50px;color:#D56212;background-color:#E8F6F3  ">Being a Coach</h1>
+    <div style="display: inline-block;text-align: center; padding:50px;color:#17202A;background-color:#f4f4f5  ">
+        <h2 class="uniH2" style="padding: 20px;text-align: center;font-size:50px;color:#08A491;background-color:#f4f4f5  ">Being a Coach</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="grid-item"><a href="https://www.mhelpdesk.com/customers/?wvideo=bern5suost"><img src="https://embedwistia-a.akamaihd.net/deliveries/77b28d1d0cec51fa572b68b1420bf9223e9052f8.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=54bbffe0" width="400" height="225" style="width: 400px; height: 225px;"></a><br>
@@ -303,9 +298,9 @@ section{
             </div>
         </div>
     </div>
-<!--     <h1 style="padding: 20px;text-align: center;font-size:50px;color:#D56212;"><b>How to Become a Coach?</b></h1> -->
+<!--     <h2 style="padding: 20px;text-align: center;font-size:50px;color:#08A491;"><b>How to Become a Coach?</b></h2> -->
     <!-- <div id="leader" style="display: inline-block;text-align: center; padding:50px;">
-       
+
         <div style="width: 40%;border-radius: 6px;background-color: rgba(227, 236, 238, 0.48);">
             <br>
             <h2 style="color:#3867C6  ">Begin your journey as a leader...</h2>
@@ -322,13 +317,13 @@ section{
         </div>
     </div> -->
         <!-- Accordion -->
-<div style="background-color:#B2D0C8;text-align: center;display: inline-block;width: 100%">
+<div style="background-color:#fff;text-align: center;display: inline-block;width: 100%">
 <div class="container-fluid bg-gray" id="accordion-style-1">
-    <div class="container">
+    <div class="containers">
         <section>
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-green mb-4 text-center" style="padding: 20px;text-align: center;font-size:50px;color:#D56212;">Frequently Asked Questions</h1>
+                    <h2 class="uniH2" class="text-green mb-4 text-center" style="padding: 20px;text-align: center;font-size:50px;color:#08A491;">Frequently Asked Questions</h2>
                 </div>
                 <div class="col-10 mx-auto">
                     <div class="accordion" id="accordionExample">
@@ -341,7 +336,7 @@ section{
                           </h5>
                             </div>
 
-                            <div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse fade" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
                                     Anyone from the age of 23 to 45 with a bachelors degree and the passion of working with kids can become a coach at Steam. Please click on the apply now button to learn more about the requirements and see wether you are legible of being a coach. If you are interested, please contact us and let us know.
                                 </div>
@@ -351,13 +346,13 @@ section{
                             <div class="card-header" id="headingTwo">
                                 <h5 class="mb-0">
                             <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                             <i class="fa fa-plus main"></i><i class="fa fa-angle-double-right mr-3"></i>How Flexible is the work?
+                             <i class="fa fa-angle-double-right mr-3"></i>How Flexible is the work?
                             </button>
                           </h5>
                             </div>
                             <div id="collapseTwo" class="collapse fade" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<a href="https://www.fiverr.com/sunlimetech/design-and-fix-your-bootstrap-4-issues" class="ml-3" target="_blank"><strong>View More designs <i class="fa fa-angle-double-right"></i></strong></a>
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                 </div>
                             </div>
                         </div>
@@ -365,13 +360,13 @@ section{
                             <div class="card-header" id="headingThree">
                                 <h5 class="mb-0">
                             <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <i class="fa fa-expeditedssl main"></i><i class="fa fa-angle-double-right mr-3"></i>How much can I earn as a coach?
+                              <i class="fa fa-angle-double-right mr-3"></i>How much can I earn as a coach?
                             </button>
                           </h5>
                             </div>
                             <div id="collapseThree" class="collapse fade" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<a href="https://www.fiverr.com/sunlimetech/convert-bootstrap-or-html-to-wordpress-for-global-devices" class="ml-3" target="_blank"><strong>View More designs <i class="fa fa-angle-double-right"></i></strong></a>
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                 </div>
                             </div>
                         </div>
@@ -379,169 +374,58 @@ section{
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
                             <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              <i class="fa fa-envelope main"></i><i class="fa fa-angle-double-right mr-3"></i>How can I nominate a person?
+                              <i class="fa fa-angle-double-right mr-3"></i>How can I nominate a person?
                             </button>
                           </h5>
                             </div>
                             <div id="collapseFour" class="collapse fade" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<a href="https://www.fiverr.com/sunlimetech/do-web-development-in-pure-php-and-frameworks" class="ml-3" target="_blank"><strong>View More designs <i class="fa fa-angle-double-right"></i></strong></a>
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingFour">
+                            <div class="card-header" id="headingFive">
                                 <h5 class="mb-0">
-                            <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              <i class="fa fa-envelope main"></i><i class="fa fa-angle-double-right mr-3"></i>Do I get any certification?
+                            <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              <i class="fa fa-angle-double-right mr-3"></i>Do I get any certification?
                             </button>
                           </h5>
                             </div>
-                            <div id="collapseFour" class="collapse fade" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div id="collapseFive" class="collapse fade" aria-labelledby="headingFive" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<a href="https://www.fiverr.com/sunlimetech/do-web-development-in-pure-php-and-frameworks" class="ml-3" target="_blank"><strong>View More designs <i class="fa fa-angle-double-right"></i></strong></a>
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                 </div>
                             </div>
                         </div>
 
                         <div class="card">
-                            <div class="card-header" id="headingFour">
+                            <div class="card-header" id="headingSix">
                                 <h5 class="mb-0">
-                            <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              <i class="fa fa-envelope main"></i><i class="fa fa-angle-double-right mr-3"></i>How do I start?
+                            <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              <i class="fa fa-angle-double-right mr-3"></i>How do I start?
                             </button>
                           </h5>
                             </div>
-                            <div id="collapseFour" class="collapse fade" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div id="collapseSix" class="collapse fade" aria-labelledby="headingSix" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<a href="https://www.fiverr.com/sunlimetech/do-web-development-in-pure-php-and-frameworks" class="ml-3" target="_blank"><strong>View More designs <i class="fa fa-angle-double-right"></i></strong></a>
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
         </section>
     </div>
     </div>
 <!-- .// Accordion -->
      </div>
-    <!-- Footer -->
-    <footer class="page-footer font-small blue-grey lighten-5">
-        <div style="background-color: #5bc0af;">
-            <div class="container">
-                <!-- Grid row-->
-                <div class="row py-4 d-flex align-items-center">
-                    <!-- Grid column -->
-                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                        <h6 class="mb-0">Get connected with us on social networks!</h6>
-                    </div>
-                    <!-- Grid column -->
-                    <!-- Grid column -->
-                    <div class="col-md-6 col-lg-7 text-center text-md-right">
-                        <!-- Facebook -->
-                        <a class="fb-ic">
-              <i class="fab fa-facebook-f white-text mr-4"> </i>
-            </a>
-                        <!-- Twitter -->
-                        <a class="tw-ic">
-              <i class="fab fa-twitter white-text mr-4"> </i>
-            </a>
-                        <!-- Google +-->
-                        <a class="gplus-ic">
-              <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            </a>
-                        <!--Linkedin -->
-                        <a class="li-ic">
-              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-            </a>
-                        <!--Instagram-->
-                        <a class="ins-ic">
-              <i class="fab fa-instagram white-text"> </i>
-            </a>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!-- Grid row-->
-            </div>
-        </div>
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3 dark-grey-text">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-                    <!-- Content -->
-                    <h6 class="text-uppercase font-weight-bold">Company name</h6>
-                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.</p>
-                </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Products</h6>
-                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a class="dark-grey-text" href="#!">MDBootstrap</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">MDWordPress</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">BrandFlow</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">Bootstrap Angular</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a class="dark-grey-text" href="#!">Your Account</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">Become an Affiliate</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">Help</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                    <p>
-                        <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                    <p>
-                        <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                    <p>
-                        <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-        </div>
-        <!-- Footer Links -->
-        <!-- Copyright -->
-        <div class="footer-copyright text-center text-black-50 py-3" style="background-color: #f4f4f5">© 2018 Copyright:
-            <a class="dark-grey-text" href="https://mdbootstrap.com/education/bootstrap/"> HUIHUIHUI.com</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+    <?php
+
+    include('footer.php')
+
+    ?>
 </body>
 
 </html>

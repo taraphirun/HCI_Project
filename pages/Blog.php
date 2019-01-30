@@ -9,8 +9,10 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="../CSS/styleBlog.css" rel="stylesheet" />
+
     <title>STEAM Blog</title>
   </head>
   <body>
@@ -22,6 +24,48 @@ include_once ('header.php')
     <div id="pageWrapper">
       <div class="row" id="contentWrapper">
         <div id="mainContent">
+          <!-- SearchSTART -->
+          <div class="container">
+    <div class="row searchFilter" >
+       <div class="col-sm-12" >
+        <div class="input-group" >
+         <input id="table_filter" type="text" class="form-control" aria-label="Text input with segmented button dropdown" >
+         <div class="input-group-btn" >
+          <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="label-icon" >Category</span> <span class="caret" >&nbsp;</span></button>
+          <div class="dropdown-menu dropdown-menu-right" >
+             <ul class="category_filters" >
+              <li >
+               <input class="cat_type category-input" data-label="All" id="all" value="" name="radios" type="radio" ><label for="all" >All</label>
+              </li>
+              <li >
+               <input type="radio" name="radios" id="Design" value="Design" ><label class="category-label" for="Design" >Design</label>
+              </li>
+              <li >
+               <input type="radio" name="radios" id="Marketing" value="Marketing" ><label class="category-label" for="Marketing" >Marketing</label>
+              </li>
+              <li >
+               <input type="radio" name="radios" id="Programming" value="Programming" ><label class="category-label" for="Programming" >Programming</label>
+              </li>
+              <li >
+               <input type="radio" name="radios" id="Sales" value="Sales" ><label class="category-label" for="Sales" >Sales</label>
+              </li>
+              <li >
+               <input type="radio" name="radios" id="Support" value="Support" ><label class="category-label" for="Support" >Support</label>
+              </li>
+             </ul>
+          </div>
+          <button id="searchBtn" type="button" class="btn btn-secondary btn-search" ><span class="glyphicon glyphicon-search" >&nbsp;</span> <span class="label-icon" >Search</span></button>
+         </div>
+        </div>
+       </div>
+    </div>
+  </div>
+
+
+
+
+
+          <!-- SearchEND -->
           <div class="featuredSection">
             <div class="post">
               <div class="postContent">
@@ -212,7 +256,7 @@ include_once ('header.php')
         </div>
       </div>
 
-      <div class="endAction subscribeBox">
+      <!-- <div class="endAction subscribeBox">
         <div class="subContent">
           <h3 class="subTitle">Get updated by Email</h3>
           <p class="subPara">Get the latest news and offers delivered straight to your inbox!</p>
@@ -223,15 +267,26 @@ include_once ('header.php')
             </form>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script> -->
 
-  <?php 
+  <?php
 
   include('Footer.php')
   ?>
   </body>
+  <script type="text/javascript">
+  $(document).ready(function(e){
+$('.search-panel .dropdown-menu').find('a').click(function(e) {
+e.preventDefault();
+var param = $(this).attr("href").replace("#","");
+var concept = $(this).text();
+$('.search-panel span#search_concept').text(concept);
+$('.input-group #search_param').val(param);
+});
+});
+  </script>
 
 </html>

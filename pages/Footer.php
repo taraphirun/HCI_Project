@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  
+
   <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +15,7 @@
   <title>Document</title>
 </head>
 <body>
-  
+
 <!-- Footer -->
 <footer class="page-footer font-small blue-grey lighten-5">
 
@@ -74,10 +74,9 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
           <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
+          <h6 class="text-uppercase font-weight-bold">STEAM</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+          <p> To make your children education accessible at your fingertip STEAM </p>
 
         </div>
         <!-- Grid column -->
@@ -86,19 +85,22 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <h6 class="text-uppercase font-weight-bold">Parents</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a class="dark-grey-text" href="#!">TOY YOU LIKE</a>
+            <a class="dark-grey-text" href="#!">Find a class</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Activity</a>
+            <a class="dark-grey-text" href="#!">Birthday Parties/Playdate</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">BrandFlow</a>
+            <a class="dark-grey-text" href="#!">Send Gift Cards</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Bootstrap Angular</a>
+            <a class="dark-grey-text" href="#!">DIY Activity</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">F.A.Q</a>
           </p>
 
         </div>
@@ -108,19 +110,22 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <h6 class="text-uppercase font-weight-bold">Coach</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a class="dark-grey-text" href="#!">Your Account</a>
+            <a class="dark-grey-text" href="#!">Our Coach</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Become an Coach</a>
+            <a class="dark-grey-text" href="#!">Become Coach</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Find A Class</a>
+            <a class="dark-grey-text" href="#!">Nominate Coach</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Help</a>
+            <a class="dark-grey-text" href="#!">Login</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Sign Up</a>
           </p>
 
         </div>
@@ -130,16 +135,23 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <h6 class="text-uppercase font-weight-bold">Company</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <a class="dark-grey-text" href="#!">About Us</a>
+          </p>
           <p>
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <a class="dark-grey-text" href="#!">Our Approach</a>
+          </p>
           <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <a class="dark-grey-text" href="#!">Team</a>
+          </p>
           <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            <a class="dark-grey-text" href="#!">Careers</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Blog</a>
+          </p>
 
         </div>
         <!-- Grid column -->

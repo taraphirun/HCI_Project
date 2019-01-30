@@ -128,6 +128,10 @@ ul{
 .imgBlock img{
   width: 80%;
 }
+li{
+  margin: 0 15px;
+/*. */
+}
 /* .scrollArrow::before{
   content: '';
   position: absolute;

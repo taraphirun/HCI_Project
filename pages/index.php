@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'header.php';
 ?>
 
@@ -14,9 +14,11 @@ include 'header.php';
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../CSS/dnSlide.css">
     <link href="../CSS/style2.css" rel="stylesheet" />
+    <link href="../CSS/styleBlog.css" rel="stylesheet" />
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <meta charset="utf-8">
     <title>STEAM v2</title>
   </head>
@@ -24,9 +26,9 @@ include 'header.php';
     <div class="mainContainer">
       <div id="coverPage" >
         <div class="greeting">
-          <div class="overlay"></div>
+          <div class="overlayHome"></div>
           <h1>Find the <strong>BEST Class</strong> for your children</h1>
-          <button class="btn btn-success findClassBtn">Find Class Now</button>
+          <button onclick="window.location.href='../pages/FindClassTest.php'" class="btn btn-success uniBtn findClassBtn">Find Class Now</button>
         </div>
       </div>
       <div class="recommendation">
@@ -35,30 +37,49 @@ include 'header.php';
         </div>
         <div class="recContent">
           <div class="recom">
-            <div class="recImgCon">
-              <img class="recImg" src="../res/img/class/lego.jpeg" alt="">
-            </div>
-            <div class="recMeta">
-              <h3>LEGO Robotic</h3>
-              <div class="metaInfo age">3 - 5 years old</div>
-              <div class="metaInfo time">9:30 - 10:00</div>
-              <div class="metaInfo place">LA Hight School</div>
-              <div class="learnMore">
-                <div class="btn btn-success">Learn More</div>
+            <div class="recomWrapper">
+              <div class="recImgCon">
+                <img class="recImg" src="../res/img/class/lego.jpeg" alt="">
+              </div>
+              <div class="recMeta">
+                <h3>LEGO Robotic</h3>
+                <div class="metaInfo age">3 - 5 years old</div>
+                <div class="metaInfo time">9:30 - 10:00</div>
+                <div class="metaInfo price">$ 120.00</div>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="learnMore">
+                  <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Learn More</div>
+                </div>
               </div>
             </div>
           </div>
           <div class="recom">
-            <div class="recImgCon">
-              <img class="recImg" src="../res/img/class/soccer.jpg" alt="">
-            </div>
-            <div class="recMeta">
-              <h3>Kid Soccer</h3>
-              <div class="metaInfo age">4 - 6 years old</div>
-              <div class="metaInfo time">16:30 - 17:00</div>
-              <div class="metaInfo place">LA Hight School</div>
-              <div class="learnMore">
-                <div class="btn btn-success">Learn More</div>
+            <div class="recomWrapper">
+              <div class="recImgCon">
+                <img class="recImg" src="../res/img/class/soccer.jpg" alt="">
+              </div>
+              <div class="recMeta">
+                <h3>Kid Soccer</h3>
+                <div class="metaInfo age">4 - 6 years old</div>
+                <div class="metaInfo time">16:30 - 17:00</div>
+                <!-- <div class="metaInfo place">LA Hight School</div> -->
+                <div class="metaInfo price">$ 120.00</div>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="learnMore">
+                  <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Learn More</div>
+                </div>
               </div>
             </div>
           </div>
@@ -70,13 +91,13 @@ include 'header.php';
           <div class="sect2Wrapper">
             <div class="row">
               <div class="col-md-6 steam_vidCon">
-                <video class="steam_vid" src="../res/vid/STEAM_ads.mp4" poster="../res/img/explain.png"autoplay controls>
-
+                <video class="steam_vid" src="../res/vid/STEAM_ads.mp4" poster="../res/img/explain.png" autoplay controls>
                 </video>
               </div>
               <div class="col-md-6">
                 <div class="center">
-                  <h2>Here's How We Do What We Do</h2>
+                  <h2 class="uniH2">Here's How We Do What We Do</h2>
+                  <h3 class="uniH3"> To create the best learning environment possible, we take carefully design and personalized each class to best fit the children.</h3>
                   <div class="stepsCon">
                     <div class="stepsWrapper">
                       <div class="step">
@@ -100,7 +121,7 @@ include 'header.php';
                     </div>
                   </div>
                   <div class="buttonCon">
-                    <button class="btn btn-success button">Find Class</button>
+                    <button onclick="window.location.href='../pages/FindClassTest.php'"class="btn btn-success uniBtn button">Find Class</button>
                   </div>
                 </div>
               </div>
@@ -134,7 +155,7 @@ include 'header.php';
         <div class="blockContainer grey">
           <div class="testWrapper">
             <div class="blockTitle">
-              <h2>What our Coaches Say</h2>
+              <h2 class="uniH2">What our Coaches Say</h2>
             </div>
             <div class="testList container-fluid">
               <div class="row">
@@ -182,7 +203,7 @@ include 'header.php';
                   <div class="applyCoachWrapper">
                     <p class="hookQuote">Start your journey today with us! Become a coach! </p>
 
-                    <button class="btn btn-success">Apply Now</button>
+                    <button onclick="window.location.href='../pages/be_a_coach.php'" class="btn btn-success uniBtn">Apply Now</button>
                   </div>
 
                 </div>
@@ -190,12 +211,82 @@ include 'header.php';
             </div>
           </div>
         </div>
+        <!-- BLOG -->
+        <div class="blockContainer " >
+          <div class="blogWrapper">
+            <div class="row">
+              <div class="BlogTitle">
+                  <h2 class="uniH2">Latest Blog</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 ">
+                <div class="thumBlog">
+                  <div class="postImageHome">
+                    <a href="#"><img src="../res/img/Blog/tn_post1.jpeg" alt=""></a>
+                    <span class="post-tag">Indoor</span>
+                  </div>
+                  <div class="postDetail">
+                    <h3 class="postTitle">Benefit of Classroom Environment</h3>
+                    <div class="postMeta">
+                      <span class="post-author"><i class="fas fa-user"></i> John Doe </span>
+                      <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
+                    </div>
+                    <p class="post-summary">Lorem ipsum dolor sit amet, laborum deserunt mollit anim id est laborum...</p>
+                    <button class="btn btn-success uniBtn findClassBtn" onclick="window.location.href='../pages/readMore.php'" >Read More</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 ">
+                <div class="thumBlog">
+                  <div class="postImageHome">
+                    <a href="#"><img src="../res/img/Blog/tn_post1.jpeg" alt=""></a>
+                    <span class="post-tag">Indoor</span>
+                  </div>
+                  <div class="postDetail">
+                    <h3 class="postTitle">Benefit of Classroom Environment</h3>
+                    <div class="postMeta">
+                      <span class="post-author"><i class="fas fa-user"></i> John Doe </span>
+                      <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
+                    </div>
+                    <p class="post-summary">Lorem ipsum dolor sit amet, laborum deserunt mollit anim id est laborum...</p>
+                    <button class="btn btn-success uniBtn findClassBtn" onclick="window.location.href='../pages/readMore.php'" >Read More</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 ">
+                <div class="thumBlog">
+                  <div class="postImageHome">
+                    <a href="#"><img src="../res/img/Blog/tn_post1.jpeg" alt=""></a>
+                    <span class="post-tag">Indoor</span>
+                  </div>
+                  <div class="postDetail">
+                    <h3 class="postTitle">Benefit of Classroom Environment</h3>
+                    <div class="postMeta">
+                      <span class="post-author"><i class="fas fa-user"></i> John Doe </span>
+                      <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
+                    </div>
+                    <p class="post-summary">Lorem ipsum dolor sit amet, laborum deserunt mollit anim id est laborum...</p>
+                    <button class="btn btn-success uniBtn findClassBtn" onclick="window.location.href='../pages/readMore.php'" >Read More</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+
+
+          </div>
+        </div>
         <!-- SECTIONV_Mission_and_Value -->
-        <div class="mvCon blockContainer">
+        <div class="mvCon blockContainer grey">
           <div class="mvWrapper">
             <div class="row missionCon">
               <div class="blockTitle">
-                <h2>Our Mission</h2>
+                <h2 class="uniH2">Our Mission</h2>
               </div>
               <div class="missionStatement">
                 <blockquote>
@@ -207,7 +298,7 @@ include 'header.php';
             </div>
             <div class="row valueCon">
               <div class="blockTitle">
-                <h2>Our Core Values</h2>
+                <h2 class="uniH2">Our Core Values</h2>
               </div>
               <div class="valueList">
                 <div class="value col-md-4">
@@ -239,12 +330,19 @@ include 'header.php';
                   </div>
                 </div>
               </div>
+              <div class="moreAboutUs blockContainer">
+                <div class="moreAboutUsWrapper">
+                  <!-- <h2>More about us</h2> -->
+                   <a href="../pages/About_us.php"><i class="fa fa-angle-double-right mr-3"> <i>More about Us</i></a></i>
+                  <!-- <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">More About Us</div> -->
+                </div>
+              </div>
 
             </div>
           </div>
         </div>
         <!-- SECTION_VI -->
-        <div class="grey blockContainer" >
+        <!-- <div class="grey blockContainer" >
           <div class="formMapCon">
             <div class="formMapWrapper">
               <div class="row">
@@ -255,7 +353,7 @@ include 'header.php';
                       <form action="action_page.php">
                         <input id="fullName" type="text" id="fname" name="firstname" placeholder="Full Name" required>
                         <input id="email" type="text" id="lname" name="lastname" placeholder="Email" required>
-                        <!-- <label for="sel1">Select your topic:</label> -->
+                        <label for="sel1">Select your topic:</label>
                         <select class="form-control" id="msgTopic">
                           <option value="" selected disabled>Select your topic</option>
                           <option value="education_fee">Education fee</option>
@@ -265,7 +363,7 @@ include 'header.php';
                         </select>
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                         <p>Please allow us 24 hours to get back to you. Thank you!</p>
-                        <button class="btn btn-success" type="submit" name="button">Send</button>
+                        <button class="btn btn-success uniBtn" type="submit" name="button">Send</button>
                       </form>
                     </div>
                   </div>
@@ -293,62 +391,27 @@ include 'header.php';
               </div>
             </div>
           </div>
+          </div> -->
+      <!-- CONTACTUS -->
+      <div class="blockContainer ">
+        <div class="contactUsWrapper">
+          <div class="ContactUsTitle">
+            <h2>To get more information, contact us now.</h2>
+          </div>
+          <div class="contactUsButton">
+            <button class="btn btn-success uniBtn findClassBtn" onclick="window.location.href='../pages/contact_us.php'" >Contact Us</button>
           </div>
 
+        </div>
       </div>
+      <?php
 
+      include('Footer.php')
+      ?>
+      </div>
     </div>
-  <!-- SCRIPT -->
 
-  <script src="https://cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
-  <script src="js/dnSlide.js"></script>
-  <script src="js/expandJS.js"></script>
-  <script>
-
-    jQuery(document).ready(function($) {
-
-        $(".dnSlide-main").each(function(index, el) {
-            var setting = {
-                "response" : true ,
-                afterClickBtnFn :function(i){ console.log(i); }
-            };
-            switch (index) {
-                case 0:
-                    setting.verticalAlign = "top" ;
-                    setting.switching     = "custom" ;
-                    setting.precentWidth  = "25%" ;
-                    var api = $(el).dnSlide(setting).data( "dnSlide" );
-                    $(".hide").on("click",function(){
-                        api.hide(function(){
-                            alert('HIDEEN！！！');
-                        });
-                    });
-                    $(".show").on("click",function(){
-                        api.show(function(){
-                            alert('SHOW！！！');
-                        });
-                    });
-                    break;
-                case 1:
-                    setting.autoPlay  =  true ;
-                    $(el).dnSlide(setting);
-                    break;
-                case 2:
-                    setting.verticalAlign = "bottom" ;
-                    $(el).dnSlide(setting);
-                    break;
-                default:
-                    $(el).dnSlide(setting);
-                    break;
-            }
-        });
-    });
-    </script>
   </body>
-</html>
+  <link rel="stylesheet" href="../CSS/master.css">
 
-
-<?php 
-include 'Footer.php';
-?>
 </html>

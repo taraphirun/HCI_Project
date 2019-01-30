@@ -10,7 +10,7 @@
   position: relative;
   background-size: cover;
 }
-.overlay {
+.overlayHome {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,8 +46,7 @@
   width: 1200px;
   margin: 0 auto;
   transform: translateY(-50%);
-
-  z-index: 2;
+  z-index: 10;
   align-items: center;
 }
 .recTitle{
@@ -79,12 +78,14 @@
   float: left;
   width: 250px;
   height: 178px;
+  padding-top: 20px;
   object-fit: cover;
 }
 .recImg{
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 .recMeta{
   display: block;
@@ -95,15 +96,28 @@
   text-align: left;
   margin-left: 20px;
 }
+.recomWrapper{
+  display: block;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+}
 .metaInfo{
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 10px;
+}
+.checked {
+  color: orange;
+}
+.star{
+  font-size: 16px;
 }
 .coachContainer{
   display: block;
   position: relative;
   width: 40%;
   height: 500px;
+  font-size: 11px;
 }
 .slide-img{
   border-radius: 50%;
@@ -132,8 +146,9 @@
 .sect2Container{
   display: block;
   width: 100%;
-  height: 50vh;
+  /* height: 50vh; */
   background-color: #fff;
+  padding-bottom: 20px;
 }
 .sect2Wrapper{
   width: 1200px;
@@ -144,9 +159,12 @@
   display: block;
   width: 100%;
   object-fit: cover;
+  margin: auto 0;
+  padding-top: 20px;
 }
 .steam_vid{
   width: 100%;
+
 }
 
 .center{
@@ -205,7 +223,9 @@
   /* text-align: center; */
   display: block;
   width: 100%;
-  height: 100vh;
+  padding-bottom: 10px;
+  clear:both;
+  /* height: 100vh; */
 }
 .grey{
   background-color: #f4f4f4f5;
@@ -270,7 +290,8 @@
 .mvWrapper{
   display: block;
   width: 1200px;
-  height: 100%;
+  /* height: 100%; */
+  padding-bottom: 10px;
   margin: 0 auto;
   padding-top: 30px;
   /* border: 1px solid black; */
@@ -303,6 +324,12 @@
   height: 80%;
   padding-top: 50px;
 }
+.moreAboutUsWrapper{
+  text-align: center;
+  font-size: 21px;
+  /* padding-right: 50px; */
+}
+
 
 blockquote {
    font-size: 25px;
@@ -446,4 +473,38 @@ input#email{
 }
 .contactOther p{
   font-size: 20px;
+}
+/* CONTACTUS */
+.contactUsWrapper{
+  display: block;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+/* BLOG */
+.blogWrapper{
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+}
+.BlogTitle{
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
+.BlogTitle h2{
+  text-align: center;
+}
+.thumBlog{
+  float: left;
+  padding: 10px;
+}
+.postImageHome{
+  float: left;
+  width: 350px;
+  height: 190px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin: 0 18px 0 0;
 }

@@ -1,3 +1,6 @@
+<?php
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -10,44 +13,11 @@
     <!-- <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link href="styleBlog.css" rel="stylesheet" />
+    <link href="../CSS/styleBlog.css" rel="stylesheet" />
     <title>STEAM Blog</title>
   </head>
   <body>
-    <!-- NAVIGATION_BAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light my-0 my-sm-0 sticky-top" >
-          <a href="#" class="navbar-brand "><i class="fa">&#xf285;</i></a>
-          <a class="navbar-brand ml-4" href="#">&nbsp;&nbsp;&nbsp;STEAM</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation" >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggle">
-            <ul class="navbar-nav  mx-auto pull-center" align="center">
-              <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Classes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Be our Coach</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="blog.html">STEAM Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#">Contact Us</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav pull-center">
-             <button class="btn btn-outline-success my-2 my-sm-1 ml-2">Login</button>
-             <button class="btn btn-outline-danger my-2 my-sm-1 ml-2">Sign Up</button>
-            </ul>
-          </div>
-        </nav>
+
 
     <div id="pageWrapper">
       <div class="row" id="contentWrapper">
@@ -61,7 +31,7 @@
               </div>
             </div>
             <div class="postImageContainer">
-              <img class="post-image"src="res/img/Blog/featured1.jpg" alt="">
+              <img class="post-image"src="../../res/img/Blog/featured1.jpg" alt="">
             </div>
             <div class="postContent">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam necessitatibus quis, nesciunt odit! Recusandae quam accusantium iure, quaerat tempore, cum! Nisi maxime modi error ullam fugit, nam architecto, adipisci tempore amet! Iste quas blanditiis ullam iusto saepe incidunt enim veritatis vel, velit quisquam, illo! Quaerat quisquam enim delectus, dolorum! Aliquid.</p>
@@ -89,7 +59,7 @@
           </div>
           <div class="postAds">
             <div class="adsImgCon">
-              <img class="adsImg" src="res/img/Blog/ads/lego.jpg" alt="">
+              <img class="adsImg" src="../../res/img/Blog/ads/lego.jpg" alt="">
             </div>
             <div class="adsMeta">
               <span class="adsTitle">LEGO Minecraft The Nether Portal 21143 Building Kit (470 Piece)</span>
@@ -107,7 +77,7 @@
             <div class="highPostBox">
               <div class="highPost">
                 <div class="highThum">
-                  <img class="imgThum" src="res/img/Blog/highPost1.jpeg" alt="">
+                  <img class="imgThum" src="../res/img/Blog/highPost1.jpeg" alt="">
                 </div>
                 <div class="highContent">
                   <h4>Study shown that some music enhants learning capacity</h4>
@@ -120,7 +90,7 @@
 
               <div class="highPost">
                 <div class="highThum">
-                  <img class="imgThum" src="res/img/Blog/highPost1.jpeg" alt="">
+                  <img class="imgThum" src="../res/img/Blog/highPost1.jpeg" alt="">
                 </div>
                 <div class="highContent">
                   <h4>Study shown that some music enhants learning capacity</h4>
@@ -133,7 +103,7 @@
 
               <div class="highPost">
                 <div class="highThum">
-                  <img class="imgThum" src="res/img/Blog/highPost1.jpeg" alt="">
+                  <img class="imgThum" src="../res/img/Blog/highPost1.jpeg" alt="">
                 </div>
                 <div class="highContent">
                   <h4>Study shown that some music enhants learning capacity</h4>
@@ -177,6 +147,9 @@
 
     </div>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script> -->
+  <?php
+  include('Footer.php')
+  ?>
   </body>
 
 </html>
