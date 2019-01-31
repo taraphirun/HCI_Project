@@ -55,11 +55,7 @@
         float: right;
     }
 
-    a,
-    a:active {
-        color: #17202A;
-        text-decoration: none;
-    }
+
 
     a:hover {
         color: ##08A491;
@@ -68,13 +64,13 @@
     /* Breadcrups CSS */
 
     .arrow-steps .step {
-        font-size: 14px;
+        font-size: 19px;
         text-align: center;
-        color: #666;
+        color: #fff;
         cursor: default;
         margin: 0 3px;
         padding: 10px 10px 10px 30px;
-        min-width: 180px;
+        width: 210px;
         float: left;
         position: relative;
         background-color: #d9e3f7;
@@ -83,6 +79,7 @@
         -ms-user-select: none;
         user-select: none;
         transition: background-color 0.2s ease;
+         background-color: #23468c;
     }
 
     .arrow-steps .step:after,
@@ -146,7 +143,7 @@
     }
 
     #intro{
-        background-image:url("../img/coach_child.jpg");
+        background-image:url("../img/coach_child.png");
   width:100%;
   height:90%;
   background-repeat:no-repeat;
@@ -234,21 +231,35 @@
     border-bottom-right-radius: 7px;
     display:block;
 }
+.text-block {
+ /* position: absolute;*/
+  width:60%;
+  /*background-color:rgba(192,192,192,0.2);*/
+  color: white;
+  padding:20px;
+  color:black;
+  margin-left: 220px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
     </style>
     <link rel="stylesheet" href="../CSS/master.css">
 </head>
 
-<body>
+<body onload="typeWriter()">
     <a target="_blank" href="job_form.html" id ="float">APPLY NOW</a>
     <div id="intro">
         <div class="containers">
             <div class="wrapper">
                 <div class="arrow-steps clearfix">
                     <div class="step current"> <span> Sign up as a Coach</span> </div>
-                    <div class="step"> <span>Fill in Application Form</span> </div>
-                    <div class="step"> <span> Pass Evaluation Process</span> </div>
-                    <div class="step"> <span>Hired as a Coach</span> </div>
+                    <div class="step"> <span>Fill in Application</span> </div>
+                    <div class="step"> <span>  Get Evaluated</span> </div>
+                    <div class="step"> <span>Hired at STEAM</span> </div>
                 </div>
+            </div>
+            <div class="text-block">
+                <h1 id="welcome" style="color:#ffffff;font-size: 70px;opacity:.7"></h1>
             </div>
         </div>
     </div>
@@ -317,8 +328,8 @@
         </div>
     </div> -->
         <!-- Accordion -->
-<div style="background-color:#fff;text-align: center;display: inline-block;width: 100%">
-<div class="container-fluid bg-gray" id="accordion-style-1">
+<div id="FAQ" style="background-color:#fff;text-align: center;display: inline-block;width: 100%">
+<div  class="container-fluid bg-gray" id="accordion-style-1">
     <div class="containers">
         <section>
             <div class="row">
@@ -427,5 +438,17 @@
 
     ?>
 </body>
+<script>var i = 0;
+    var txt = "BE A COACH";
+    var speed = 200;
 
+    function typeWriter() {
+
+        if (i < txt.length) {
+            document.getElementById("welcome").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+</script>
 </html>

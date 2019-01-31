@@ -12,6 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="../CSS/styleBlog.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/master.css"/>
 
     <title>STEAM Blog</title>
   </head>
@@ -69,7 +70,7 @@ include_once ('header.php')
           <div class="featuredSection">
             <div class="post">
               <div class="postContent">
-                <a href="post.html"><img class="post-image" src="../res/img/Blog/featured1.jpg" alt=""></a>
+                <a href="post.php"><img class="post-image" src="../res/img/Blog/featured1.jpg" alt=""></a>
                 <div class="postInfo">
                   <h2 class="postTitle"><a href="#">Lego helps improve IQ</a></h2>
                   <div class="postMeta">
@@ -85,7 +86,7 @@ include_once ('header.php')
               <div class="gridPost">
                 <div class="blogPost">
                   <div class="postImage">
-                    <a href="post.html"><img src="../res/img/Blog/tn_post1.jpeg" alt=""></a>
+                    <a href="post.php"><img src="../res/img/Blog/tn_post1.jpeg" alt=""></a>
                     <span class="post-tag">Indoor</span>
                   </div>
                   <div class="postDetail">
@@ -95,7 +96,7 @@ include_once ('header.php')
                       <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
                     </div>
                     <p class="post-summary">Lorem ipsum dolor sit amet, deserunt mollit anim id est laborum deserunt mollit anim id est laborum...</p>
-                    <a href="#" class="read-more">Read More</a>
+                    <div onclick="window.location.href='../pages/post.php'" class="btn btn-success uniBtn">Read More</div>
                   </div>
                 </div>
 
@@ -111,7 +112,7 @@ include_once ('header.php')
                       <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
                     </div>
                     <p class="post-summary">Lorem ipsum dolor sit amet, deserunt mollit anim id est laborum deserunt mollit anim id est laborum...</p>
-                    <a href="#" class="read-more">Read More</a>
+                    <div onclick="window.location.href='../pages/post.php'" class="btn btn-success uniBtn">Read More</div>
                   </div>
                 </div>
 
@@ -127,7 +128,7 @@ include_once ('header.php')
                       <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
                     </div>
                     <p class="post-summary">Lorem ipsum dolor sit amet, deserunt mollit anim id est laborum deserunt mollit anim id est laborum...</p>
-                    <a href="#" class="read-more">Read More</a>
+                    <div onclick="window.location.href='../pages/post.php'" class="btn btn-success uniBtn">Read More</div>
                   </div>
                 </div>
 
@@ -143,7 +144,7 @@ include_once ('header.php')
                       <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
                     </div>
                     <p class="post-summary">Lorem ipsum dolor sit amet, deserunt mollit anim id est laborum deserunt mollit anim id est laborum...</p>
-                    <a href="#" class="read-more">Read More</a>
+                    <div onclick="window.location.href='../pages/post.php'" class="btn btn-success uniBtn">Read More</div>
                   </div>
                 </div>
 
@@ -159,7 +160,7 @@ include_once ('header.php')
                       <span class="post-date" datetime="2016-03-17T00:42:00-07:00"><i class="far fa-clock"></i> March 17, 2016</span>
                     </div>
                     <p class="post-summary">Lorem ipsum dolor sit amet, deserunt mollit anim id est laborum deserunt mollit anim id est laborum...</p>
-                    <a href="#" class="read-more">Read More</a>
+                    <div onclick="window.location.href='../pages/post.php'" class="btn btn-success uniBtn">Read More</div>
                   </div>
                 </div>
 
@@ -189,7 +190,8 @@ include_once ('header.php')
               <div class="subForm">
                 <form action="#" method="get" class="subForm">
                   <input class="emailBox" type="email" name="userEmail" placeholder="Email Address">
-                  <input class="emailButton" type="submit" value="Subscribe">
+                  <!-- <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div> -->
+                  <input class="emailButton btn btn-success uniBtn" type="submit" value="Subscribe">
                 </form>
               </div>
             </div>

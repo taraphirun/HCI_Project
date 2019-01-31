@@ -9,7 +9,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
@@ -19,14 +19,14 @@
   </head>
   <body>
 <!-- NAVIGATION_BAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light my-0 my-sm-0 sticky-top" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-0 my-sm-0 sticky-top stroke" >
       <a href="index.php" class="navbar-brand "><h2><i class="fab fa-modx" style='color:#5bc0af'>STEM</i></h2></a>
       <a class="navbar-brand ml-4" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarToggle">
-        <ul class="navbar-nav  mx-auto pull-center" align="center">
+        <ul id="navTitle" class="navbar-nav  mx-auto pull-center" align="center">
           <li class="nav-item">
             <a class="nav-link" href="index.php">Home</a>
           </li>
@@ -47,14 +47,31 @@
           </li>
         </ul>
         <ul class="navbar-nav pull-center">
-         <button class="btn btn-outline-success my-2 my-sm-1 ml-2"><a href="login.php">Login</a></button>
-         <button class="btn btn-outline-danger my-2 my-sm-1 ml-2">Sign Up</button>
+         <button onclick="window.location.href='../pages/login.php'" class="btn btn-success my-2 my-sm-1 ml-2">Login</button>
+         <button  onclick="window.location.href='../pages/login.php'" class="btn btn-danger my-2 my-sm-1 ml-2">Sign Up</button>
         </ul>
       </div>
     </nav>
-    
+
 
     </body>
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    // Get current path and find target link
+    var path = window.location.pathname.split("/").pop();
+    console.log(path);
+
+    // Account for home page with empty path
+    if ( path == '' ) {
+      path = 'index.php';
+    }
+
+
+    var target = $('#navTitle a[href="'+path+'"]');
+    // Add active class to target link
+    target.addClass('active');
+  });
+  </script>
 </html>
 
 <style type="text/css">

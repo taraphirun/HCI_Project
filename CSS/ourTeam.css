@@ -1,0 +1,63 @@
+body{
+  font-family: Georgia,serif;
+}
+
+.member img{
+  border-radius: 50%;
+}
+.info{
+  text-align: center;
+}
+.ourTeamWrapper li{
+  list-style: none;
+}
+.info .lead{
+  margin-top: .2rem;
+  text-align: center;
+}
+.info .name{
+  font-size: 21px;
+  margin-bottom: 0;
+}
+.ourTeamWrapper{
+  display: block;
+  width: 1000px;
+  /* height: 500px; */
+  margin: 0 auto;
+}
+.ourTeamWrapper ul{
+  margin: 0 auto;
+}
+.member{
+  text-align: center;
+
+}
+.bioBtn{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.bioBtn:focus{
+  border: none;
+}
+.modal-content{
+  text-align: center;
+}
+.modal-content img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.modal-header{
+  margin: 0 auto;
+}
+.imgCon{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.memberName{
+  display: block;
+  position: relative;
+  width: 100%;
+  clear: both;
+}

@@ -88,10 +88,10 @@
           <h6 class="text-uppercase font-weight-bold">Parents</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a class="dark-grey-text" href="#!">Find a class</a>
+            <a class="dark-grey-text" href="../pages/FindClassTest.php">Find a class</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Birthday Parties/Playdate</a>
+            <a class="dark-grey-text" href="#!">Birthday/Playdate</a>
           </p>
           <p>
             <a class="dark-grey-text" href="#!">Send Gift Cards</a>
@@ -100,7 +100,7 @@
             <a class="dark-grey-text" href="#!">DIY Activity</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">F.A.Q</a>
+            <a class="dark-grey-text" href="be_a_coach.php#FAQ">F.A.Q</a>
           </p>
 
         </div>
@@ -122,10 +122,10 @@
             <a class="dark-grey-text" href="#!">Nominate Coach</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Login</a>
+            <a class="dark-grey-text" href="../login/login.php">Login</a>
           </p>
           <p>
-            <a class="dark-grey-text" href="#!">Sign Up</a>
+            <a class="dark-grey-text" href="../pages/login.php">Sign Up</a>
           </p>
 
         </div>
@@ -138,7 +138,7 @@
           <h6 class="text-uppercase font-weight-bold">Company</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a class="dark-grey-text" href="#!">About Us</a>
+            <a class="dark-grey-text" href="../pages/About_us.php">About Us</a>
           </p>
           <p>
             <a class="dark-grey-text" href="#!">Our Approach</a>

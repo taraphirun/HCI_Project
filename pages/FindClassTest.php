@@ -7,12 +7,13 @@ include_once ('header.php')
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  
+
 </head>
 <body>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="../CSS/master.css">
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="row">
@@ -36,7 +37,7 @@ include_once ('header.php')
 </div>
 
 <div class="row">
-<?php 
+<?php
  include('Datepicker.php')
 ?>
 </div>
@@ -44,7 +45,7 @@ include_once ('header.php')
 <h5>Time:</h5>
 <div class="row">
             <!-- Range slider: -->
-<?php 
+<?php
 include('TimeSlider.php')
 
 ?>
@@ -56,29 +57,29 @@ include('TimeSlider.php')
 
 <div class="row">
   <div class="col-md-6">
-  <?php 
+  <?php
   include('AgeRange.php')
   ?>
   </div>
 </div>
 <br>
 <!-- Catagory -->
-<?php 
+<?php
 include('treeview.php')
 
 ?>
 </div>
 
 
-  
+
 
 <!-- Cardshow -->
 <div class="col-12 col-md-9 classShow">
-  <h1>CLASSES</h1>
+  <h1 class="uniH2">CLASSES</h1>
 
 
 <!-- details card section starts from here -->
-<?php 
+<?php
 
 include('classshow.php')
 ?>
@@ -230,4 +231,3 @@ a.btn-card {
   include ('Footer.php');
   ?>
 </html>
-

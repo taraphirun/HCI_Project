@@ -91,7 +91,7 @@ include 'header.php';
           <div class="sect2Wrapper">
             <div class="row">
               <div class="col-md-6 steam_vidCon">
-                <video class="steam_vid" src="../res/vid/STEAM_ads.mp4" poster="../res/img/explain.png" autoplay controls>
+                <video class="steam_vid" src="../res/vid/STEAM_ads.mp4" poster="../res/img/explain.png"  controls>
                 </video>
               </div>
               <div class="col-md-6">

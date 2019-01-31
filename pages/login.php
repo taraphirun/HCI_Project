@@ -8,9 +8,13 @@ include ('header.php')
     <meta charset="UTF-8">
     <title>Document</title>
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 </head>
 <body>
-    <form class="border border-light p-5">
+  <?php
+    include ('../pages/login_demo.php');
+    ?>
+    <!-- <form class="border border-light p-5">
 
     <p class="h4 mb-4 text-center">Sign in</p>
 
@@ -51,7 +55,7 @@ include ('header.php')
             <i class="fab fa-github"></i>
         </a>
     </div>
-</form>
+</form> -->
 </body>
 <?php
   include ('Footer.php');

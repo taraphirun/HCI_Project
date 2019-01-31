@@ -132,7 +132,7 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="sideBlock subscribeBox">
+      <!-- <div class="sideBlock subscribeBox">
         <div class="subContent">
           <h3 class="subTitle">Get updated by Email</h3>
           <p class="subPara">Get the latest news and offers delivered straight to your inbox!</p>
@@ -143,7 +143,7 @@ include 'header.php';
             </form>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script> -->
