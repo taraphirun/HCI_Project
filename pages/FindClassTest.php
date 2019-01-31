@@ -54,13 +54,11 @@ include('TimeSlider.php')
 
         <br>
 <!-- Age Range -->
-
+<h5>Age Range (in year)</h5>
 <div class="row">
-  <div class="col-md-6">
   <?php
   include('AgeRange.php')
   ?>
-  </div>
 </div>
 <br>
 <!-- Catagory -->

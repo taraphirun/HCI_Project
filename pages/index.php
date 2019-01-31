@@ -96,7 +96,7 @@ include 'header.php';
               </div>
               <div class="col-md-6">
                 <div class="center">
-                  <h2 class="uniH2">Here's How We Do What We Do</h2>
+                  <h2 class="uniH2">How We Do What We Do</h2>
                   <h3 class="uniH3"> To create the best learning environment possible, we take carefully design and personalized each class to best fit the children.</h3>
                   <div class="stepsCon">
                     <div class="stepsWrapper">
@@ -173,7 +173,7 @@ include 'header.php';
                 </div>
 
                 <div class="testItem col-md-4">
-                  <div class="testItemTitle">Qualified Staffs</div>
+                  <div class="testItemTitle">Benefits</div>
                   <div class="testItemVideoCon">
                     <!-- <video class="testItemVideo" src="" width="100%"> -->
                     <video class="testItemVideo" controls src="../res/vid/STEAM_ads.mp4"  poster="../res/img/coaches/coach2.jpg" width="100%">

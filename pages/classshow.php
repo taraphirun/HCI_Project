@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/CSS/master.css">
+<link rel="stylesheet" href="../CSS/master.css">
 <div class='classShow'>
 	<div class="row">
 	<div class="col-md-4">
@@ -11,7 +11,7 @@
 Date: 2018-01-01 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Tim</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
@@ -24,7 +24,7 @@ Coach: Tim</p>
 Date: 2018-02-02 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Hui</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
@@ -37,7 +37,7 @@ Coach: Hui</p>
 Date: 2018-03-01 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Dom</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
@@ -58,7 +58,7 @@ Coach: Dom</p>
 Date: 2018-04-01 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Patty</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
@@ -71,7 +71,7 @@ Coach: Patty</p>
 Date: 2018-04-02 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Sam</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
@@ -84,7 +84,7 @@ Coach: Sam</p>
 Date: 2018-02-02 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Hui</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 
@@ -105,7 +105,7 @@ Coach: Hui</p>
     <p class="card-text">Date: 2018-04-02 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Lucky</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
@@ -117,7 +117,7 @@ Coach: Lucky</p>
     <p class="card-text">Date: 2018-04-02 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Get</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
@@ -129,12 +129,12 @@ Coach: Get</p>
     <p class="card-text">Date: 2018-04-02 <br>
 Time: 8:30 - 10:30 <br>
 Coach: Lee</p>
-    <div onclick="window.location.href='../pages/readMore.php'" class="btn btn-success uniBtn">Read More</div>
+    <a href="readMore.php" class="btn btn-primary uniBtn">Read More</a>
   </div>
   </div>
 </div>
 </div>
-  <button class="signup" id='float'>TRY A CLASS</button>
+  <a href="TryAClass.php"><button class="signup" id='float'>TRY A CLASS</button></a>
 
 </div>
 

@@ -14,6 +14,7 @@
 
 
 <link rel="stylesheet" href="../CSS/home.css">
+<link rel="stylesheet" href="../CSS/master.css">
 
     <title>STEM</title>
   </head>
@@ -47,8 +48,8 @@
           </li>
         </ul>
         <ul class="navbar-nav pull-center">
-         <button onclick="window.location.href='../pages/login.php'" class="btn btn-success my-2 my-sm-1 ml-2">Login</button>
-         <button  onclick="window.location.href='../pages/login.php'" class="btn btn-danger my-2 my-sm-1 ml-2">Sign Up</button>
+         <button onclick="window.location.href='../pages/login.php'" class="btn btn-success my-2 my-sm-1 ml-2 uniBtn">Login</button>
+         <button  onclick="window.location.href='../pages/login.php'" class="btn btn-danger my-2 my-sm-1 ml-2 uniBtn">Sign Up</button>
         </ul>
       </div>
     </nav>

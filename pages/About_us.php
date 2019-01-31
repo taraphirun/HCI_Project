@@ -27,14 +27,14 @@
           <div class="card" style="margin:10px">
             <img src="https://scontent.fbkk5-5.fna.fbcdn.net/v/t1.0-9/42121348_2152437464789322_5319586492408922112_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk5-5.fna&oh=98e9989c508d13aac59f626e40c0402e&oe=5C95D358" class="card-img-top" alt="..." >
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title"><b>Research</b></h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
           <div class="card" style="margin:10px">
             <img src="https://www.livemint.com/rf/Image-621x414/LiveMint/Period2/2018/10/16/Photos/Processed/post-office.JPG" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title"><b>Design</b></h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
 
@@ -42,7 +42,7 @@
           <div class="card" style="margin:10px">
             <img src="https://scontent.fbkk5-5.fna.fbcdn.net/v/t1.0-9/42241151_2152428811456854_8663187587105554432_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk5-5.fna&oh=afff34e4c9ed9ea0752684e56807af48&oe=5C8D45FF" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title"><b>Implement</b></h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
 
@@ -146,7 +146,7 @@
     <div class="mi">
       <div class="row">
         <div class="col-md-6">
-          <div class='mission'><h1>Mission And Vision</h1></div>
+          <div class='mission'><h1 class="uniH2">Mission And Vision</h1></div>
         </div>
 
         <div class="col-md-6">

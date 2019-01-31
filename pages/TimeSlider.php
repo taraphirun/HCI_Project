@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-md-11">
       <div id="slider-range"></div>
     </div>
   </div>
@@ -14,7 +14,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-md-12">
       <form>
         <input type="hidden" name="min-value" value="">
         <input type="hidden" name="max-value" value="">

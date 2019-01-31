@@ -15,7 +15,7 @@ include ('header.php')
   <div class="row">
     <div class="col-md-2">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-5">
      <h2>About This Class</h2> 
      <br>
      <div class="row">
@@ -42,7 +42,7 @@ include ('header.php')
         <hr>
         <i class="fas fa-user-alt">Coach: Tim </i>
         <hr>
-        <p><strong>$199 per student </strong> for 6 sessions</p>
+        <p><strong>$199 per student </strong> for 8 sessions</p>
         <div class="row">
           <div class="col-md-2">
         <div include="form-input-select()">

@@ -14,6 +14,7 @@ include 'header.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="../CSS/styleBlog.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/master.css">
     <title>STEAM Blog</title>
   </head>
   <body>
@@ -52,7 +53,7 @@ include 'header.php';
               <div class="subForm">
                 <form action="#" method="get" class="subForm">
                   <input class="emailBox" type="email" name="userEmail" placeholder="Email Address">
-                  <input class="emailButton" type="submit" value="Subscribe">
+                  <input class="emailButton uniBtn" type="submit" value="Subscribe">
                 </form>
               </div>
             </div>
@@ -67,10 +68,15 @@ include 'header.php';
               <span class="adsPrice"><i class="fas fa-dollar-sign"></i> $9.99 </span>
             </div>
             <div class="adsBtn">
-              <div class="btn btn-success">Buy Now</div>
+              <!-- <div onclick="href='https://www.amazon.com/LEGO-Minecraft-Nether-Portal-Building/dp/B075RFBKNX'" class="btn btn-success uniBtn">Buy Now on Amazon</div> -->
+              <a target="_blank" class="btn btn-success uniBtn" href="https://www.amazon.com/LEGO-Minecraft-Nether-Portal-Building/dp/B075RFBKNX"> Buy Now on Amazon</a>
             </div>
           </div>
-          <div class="sideBlock highlight">
+
+          
+
+
+          <div class="sideBlock highlight mt-5">
             <div class="highTitle">
               <h3>Related Posts</h3>
             </div>
